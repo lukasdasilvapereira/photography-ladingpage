@@ -35,15 +35,77 @@ img {
     font-weight: 600;
 }
 
+.contact:hover {
+    text-decoration: underline;
+}
 .header-items {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 120px;
+    transition: 0.4s ease;
+}
+
+.header-items a:hover {
+    text-decoration: underline;
 }
 
 .nav-list {
     display: flex;
     align-items: center;
     gap: 30px;
+}
+
+.main-section {
+    display: flex;
+    flex-direction: column;
+    padding: 170px 140px;
+    gap: 30px;
+}
+
+ .name {
+    color: white;
+    font-size: 2em;
+}
+
+.titulo {
+    font-size: 6em;
+    max-width: 300px;
+}
+
+.fash {
+    font-weight: 600;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px white;
+}
+
+.foto {
+    color: white;
+    font-weight: 600;
+}
+
+.offer {
+    display: flex;
+    width: 420px;
+    color: white;
+    padding: 10px;
+}
+
+.offer p {
+    border: 2px solid white; 
+    padding: 10px;
+}
+
+.tit {
+    color: red;
+    background-color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: 0.4s ease;
+    font-size: 1.2em;
+}
+
+.tit:hover {
+    background-color: transparent;
+    color: white;
 }
