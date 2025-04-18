@@ -23,6 +23,7 @@ body {
     background-position: center;
     background-attachment: fixed;
     background-image: url(assets/header.jpg);
+    overflow-y: hidden;
 }
 
 img {
@@ -149,4 +150,28 @@ img {
 
 .brands i:hover {
     background-color: transparent;
+}
+
+@media screen and (max-width: 801px) {
+ .nav-items {
+    display: none;
+ }
+
+ .titulo {
+    font-size: 4em;
+ }
+
+ .brands i {
+    font-size: 0.9em;
+ }
+}
+
+@media screen and (max-width: 559px) {
+
+    body {
+        overflow-x: hidden;
+    }
+    .titulo {
+        font-size: 2em;
+     }
 }
